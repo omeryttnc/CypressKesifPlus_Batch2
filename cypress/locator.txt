@@ -1,0 +1,24 @@
+css 
+
+. -> class                    .form-control
+# -> id                       #registration_form_firstname
+[attribute='value']           [name='firstName']
+tag[attribute=value]          input[name='firstName']
+
+$ -> ends with                link[href$='er']
+^ -> starts with              [href^='/account']
+* -> includes                 [href*='/account']
+
+iki locator
+ ve   -> birsey yazmiyoruz    [href^='/account'].mr-4
+ veya -> , (virgul koyacagiz) [href^='/account'],.mr-4
+
+  tag  attribute value
+<input name="firstName" >
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/omeryttnc/CypressKesifPlus_Batch2.git
+git push -u origin master
