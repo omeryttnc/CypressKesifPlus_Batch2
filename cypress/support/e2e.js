@@ -14,7 +14,22 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import "./commands";
+/// <reference types="cypress" />
 
+if (Cypress.config("hideXHR")) {
+  const app = window.top;
+  if (!app.document.head.querySelector("[data-hide-command-log-request]")) {
+    const style = app.document.createElement("style");
+    style.innerHTML =
+      ".command-name-request, .command-name-xhr { display: none }";
+    style.setAttribute("data-hide-command-log-request", "");
+    app.document.head.appendChild(style);
+  }
+}
+
+Cypress.on("uncaught:exception", (e, runnable) => {
+  return false;
+});
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
