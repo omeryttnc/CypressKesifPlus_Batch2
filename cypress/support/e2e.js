@@ -16,6 +16,7 @@
 // Import commands.js using ES2015 syntax:
 import "./commands";
 /// <reference types="cypress" />
+require('cypress-plugin-tab')
 
 if (Cypress.config("hideXHR")) {
   const app = window.top;
