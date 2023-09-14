@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.15.0"
+    "cypress": "^12.15.0",
+    "cypress-plugin-tab": "^1.0.5",
+    "faker": "^5.5.3"
   }
 }

@@ -1,0 +1,1 @@
+npm install -> package.json icerisindeki eksik olan butun dependencies leri kurmak icin kullaniyoruz
