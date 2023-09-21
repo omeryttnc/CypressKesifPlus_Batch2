@@ -1,11 +1,13 @@
 import dataUserInfo from "../../fixtures/userInfo.json";
 
 describe("wrap calismasi", () => {
+
   it("wrap 1", () => {
     const name = "omer";
 
     cy.wrap(name).should("equal", "omer");
   });
+  
   it("wrap 2", () => {
     cy.visit("/");
     // 1. yol direk should kullandim
