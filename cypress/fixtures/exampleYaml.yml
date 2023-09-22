@@ -1,0 +1,8 @@
+name: ben bir name 
+email: ben bir mailim
+body:
+  bod1: ic body
+  body2: ic body2
+    - list1
+    - list2
+    - list3
