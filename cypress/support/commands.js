@@ -23,3 +23,10 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+import BrowserUtilities from "./BrowserUtilities";
+
+Cypress.Commands.add("loginAlici", () => {
+  const email_alici = "kesifplusalici@mailsac.com";
+  const password = "e*y7G2xhsTVAi5u";
+  BrowserUtilities.loginMethod(email_alici, password);
+});
