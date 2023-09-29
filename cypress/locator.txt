@@ -22,3 +22,10 @@ git commit -m "first commit"
 git branch -M master
 git remote add origin https://github.com/omeryttnc/CypressKesifPlus_Batch2.git
 git push -u origin master
+
+
+xpath
+
+//tag[@attribute='value']             //input[@name='zipcode']
+(//tag[@attribute='value'])[index]    (//input[@name='zipcode'])[1]
+contains(@attribute,'value')
