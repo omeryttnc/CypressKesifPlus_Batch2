@@ -2,5 +2,9 @@
     "text":{
         "redColor":"rgb(245, 110, 105)",
         "blackColor":"rgb(72, 72, 72)"
+    },
+    "resim":{
+        "greenColor":"rgb(66, 206, 115)",
+        "greyColor":"rgb(204, 204, 204)"
     }
 }
