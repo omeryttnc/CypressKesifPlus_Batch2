@@ -28,4 +28,5 @@ xpath
 
 //tag[@attribute='value']             //input[@name='zipcode']
 (//tag[@attribute='value'])[index]    (//input[@name='zipcode'])[1]
-contains(@attribute,'value')
+//tag[text()='textDegerini']
+//tag[contains(@attr,'partialValue')]
