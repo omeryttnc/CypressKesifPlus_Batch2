@@ -1,0 +1,9 @@
+1_ npx cypress open -> acilan pencereden testlerimizi calistiriyoruz
+2_ npx cypress run --headed --browser chrome --spec "cypress\e2e\week5_day_1\alert.cy.js" -> terminalden calistirdik
+3_ script olusturup,olusturdugumuz scripti npm run kullanarak calistiriyoruz 
+
+--headed -> browser acilmasini istiyorum
+--browser -> hangi browser da calisacagimizi gosteriyoruz
+--spec -> hangi dosyayi calistirmak istiyorum
+--tag -> smoke regression gibi testlerimizi gruplandirmada kullanacagiz
+--record -> cloud hesabimizin id si 

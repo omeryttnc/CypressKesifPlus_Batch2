@@ -6,6 +6,7 @@ module.exports = defineConfig({
   watchForFileChanges:false,
   viewportHeight:900,
   viewportWidth:1600,
+  video:false,
   e2e: {
     baseUrl:'https://test.urbanicfarm.com',
     setupNodeEvents(on, config) {

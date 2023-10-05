@@ -1,0 +1,11 @@
+{
+    "AlertPage":{
+        "alertButton":"#alertButton",
+        "timerAlertButton":"#timerAlertButton",
+        "confirmButton":"#confirmButton",
+        "confirmResult":"#confirmResult"
+    },
+    "HomePage":{
+
+    }
+}
