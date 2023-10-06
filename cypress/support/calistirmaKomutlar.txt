@@ -7,3 +7,4 @@
 --spec -> hangi dosyayi calistirmak istiyorum
 --tag -> smoke regression gibi testlerimizi gruplandirmada kullanacagiz
 --record -> cloud hesabimizin id si 
+--reporter -> bize hangi tur raporlarlama yapmamizi sagliyor
