@@ -11,6 +11,13 @@ const loginMethod = (email, password) => {
     });
   };
 
+  const iframe =(webelement)=>{
+    cy.get(webelement)
+        .its('0.contentDocument.body')
+        .as("iframe")
+  }
+
   export default {
-    loginMethod
+    loginMethod,
+    iframe
   }

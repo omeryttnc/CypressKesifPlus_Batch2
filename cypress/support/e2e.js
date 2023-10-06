@@ -18,6 +18,9 @@ import "./commands";
 /// <reference types="cypress" />
 require('cypress-plugin-tab')
 require('cypress-xpath');
+
+import 'cypress-mochawesome-reporter/register';
+import '@shelex/cypress-allure-plugin';
 if (Cypress.config("hideXHR")) {
   const app = window.top;
   if (!app.document.head.querySelector("[data-hide-command-log-request]")) {

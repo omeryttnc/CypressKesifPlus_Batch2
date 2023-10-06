@@ -5,16 +5,24 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:alert":"npx cypress run --headed --browser chrome --spec 'cypress\\e2e\\week5_day_1\\alert.cy.js'",
-    "cy:alertheadless":"npx cypress run --spec 'cypress\\e2e\\week5_day_1\\alert.cy.js'"
+    "cy:alert": "npx cypress run --headed --browser chrome --spec 'cypress\\e2e\\week5_day_1\\alert.cy.js'",
+    "cy:alertheadless": "npx cypress run --spec 'cypress\\e2e\\week5_day_1\\alert.cy.js'",
+    "allure:run": "npx cypress run --spec 'cypress\\e2e\\week5_day_2\\iframe.cy.js' --headed --env allure=true",
+    "allure:generate": "allure generate allure-results --clean -o allure-report ",
+    "allure:open": "allure open"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.15.0",
+    "allure-commandline": "^2.24.1",
+    "cypress": "^12.14.0",
+    "cypress-mochawesome-reporter": "^3.6.0",
     "cypress-plugin-tab": "^1.0.5",
     "cypress-xpath": "^2.0.1",
     "faker": "^5.5.3",
     "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.0"
   }
 }
