@@ -18,7 +18,7 @@ import "./commands";
 /// <reference types="cypress" />
 require('cypress-plugin-tab')
 require('cypress-xpath');
-
+import 'cypress-plugin-api'
 import 'cypress-mochawesome-reporter/register';
 import '@shelex/cypress-allure-plugin';
 if (Cypress.config("hideXHR")) {
