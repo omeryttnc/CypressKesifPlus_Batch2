@@ -17,6 +17,7 @@
     "allure-commandline": "^2.24.1",
     "cypress": "^12.14.0",
     "cypress-mochawesome-reporter": "^3.6.0",
+    "cypress-plugin-api": "^2.11.1",
     "cypress-plugin-tab": "^1.0.5",
     "cypress-xpath": "^2.0.1",
     "faker": "^5.5.3",
