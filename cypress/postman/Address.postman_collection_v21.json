@@ -1,0 +1,378 @@
+{
+	"info": {
+		"_postman_id": "d5e68a29-60ff-4647-b931-918e917d2927",
+		"name": "Address",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11910468"
+	},
+	"item": [
+		{
+			"name": "delete",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "test.urbanicfarm.com"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en-US;q=0.9,en;q=0.8,tr;q=0.7"
+					},
+					{
+						"key": "authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2OTc3NDI2NDYsImV4cCI6MTcyODg0NjY0Niwicm9sZXMiOlsiUk9MRV9VU0VSIiwiUk9MRV9TRUxMRVIiXSwiZW1haWwiOiJrZXNpZnBsdXNhbGljaUBtYWlsc2FjLmNvbSIsImlkIjoxNjQ2LCJmaXJzdE5hbWUiOiJrZXNpZiBwbHVzIiwicGljdHVyZSI6bnVsbCwiZ29vZ2xlSWQiOm51bGwsImZhY2Vib29rSWQiOm51bGwsImxpbmtlZGluSWQiOm51bGwsImdpdGh1YklkIjpudWxsLCJhcHBsZUlkIjpudWxsLCJpc1ZlcmlmaWVkIjpmYWxzZSwicGhvbmUiOiJudWxsIiwiZGV2aWNlVG9rZW4iOiIwIiwiY3JlYXRlZCI6eyJkYXRlIjoiMjAyMy0wOS0wNyAyMTo1NzoxMi4wMDAwMDAiLCJ0aW1lem9uZV90eXBlIjozLCJ0aW1lem9uZSI6IlVUQyJ9LCJwYXlwYWxBY2NvdW50SWQiOm51bGwsImxhdCI6MzcuMzQsImxuZyI6LTEyMS44OSwiYnJvd3Nlck5vdGlmaWNhdGlvbnMiOmZhbHNlLCJhbGxvd0Fub255bW91c0NoYXQiOnRydWUsInppcENvZGUiOm51bGwsImRlbGl2ZXJ5VHlwZSI6WyJCVVlFUl9QSUNLVVAiXSwibWF4RGVsaXZlcnlSYW5nZSI6MCwiZnJlZURlbGl2ZXJ5UmFuZ2UiOjAsIm1pbkZyZWVEZWxpdmVyeU9yZGVyIjowLCJwZXJNaWxlQ29zdCI6MCwiYXZhaWxhYmlsaXR5IjoiMDg6MDAtMTc6MDAiLCJlc3RpbWF0ZWREZWxpdmVyeVRpbWUiOltdLCJhdmFpbGFiaWxpdHlCcmFuY2giOiIiLCJtaWRkbGVOYW1lIjoibnVsbCIsImxhc3ROYW1lIjoiYWxpY2kiLCJmbGV4aWJsZURlbGl2ZXJ5T3B0aW9ucyI6W119.gFeeymjoHoIlICDwdSCkEnJ_fWA00gbMjTCNm84uM_B7xeeHP0jHlGavOLQZKKSnm7NfftpzdgP-03PRU2GQUdy8D1GILSJMfl5lAooIgJiQVWg86EhuwvjQrL6eihRKGIY3pb-rVCjcmKX6k8dXi25Isa-Rb3bLHKr-7viy_9E8pCFpCNJ7KIrZXLeTqlZM9MEh5-4AHi-v398vaKwNrgZ7u9i9-awvnmiBrKJl_GX6H8Xxe_O5v0g0ne2Kaeqt5TFM2DwGMqRoDzpXlEILHWYUVam7iuk12tiWnr9j6adrutJ3J2FLB8YxIKOUb33epfrvJ1IkdyLags3zmq3tew"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "_gid=GA1.2.1822657426.1697740901; PHPSESSID=dba1u800686rdqn1okj1i4f2e7; _gat_UA-215893125-1=1; _ga=GA1.1.669416652.1696440035; _ga_5Z7XPVQV85=GS1.2.1697740901.12.1.1697742638.0.0.0; _ga_E46MZR4LKC=GS1.1.1697740900.62.1.1697742660.0.0.0"
+					},
+					{
+						"key": "origin",
+						"value": "https://test.urbanicfarm.com"
+					},
+					{
+						"key": "referer",
+						"value": "https://test.urbanicfarm.com/account/address"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"118\", \"Google Chrome\";v=\"118\", \"Not=A?Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sessionid",
+						"value": "null"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"addressId\":997}"
+				},
+				"url": {
+					"raw": "https://test.urbanicfarm.com/api/account/address/delete",
+					"protocol": "https",
+					"host": [
+						"test",
+						"urbanicfarm",
+						"com"
+					],
+					"path": [
+						"api",
+						"account",
+						"address",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAddress",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "test.urbanicfarm.com"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en-US;q=0.9,en;q=0.8,tr;q=0.7"
+					},
+					{
+						"key": "authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2OTc3NDI2NDYsImV4cCI6MTcyODg0NjY0Niwicm9sZXMiOlsiUk9MRV9VU0VSIiwiUk9MRV9TRUxMRVIiXSwiZW1haWwiOiJrZXNpZnBsdXNhbGljaUBtYWlsc2FjLmNvbSIsImlkIjoxNjQ2LCJmaXJzdE5hbWUiOiJrZXNpZiBwbHVzIiwicGljdHVyZSI6bnVsbCwiZ29vZ2xlSWQiOm51bGwsImZhY2Vib29rSWQiOm51bGwsImxpbmtlZGluSWQiOm51bGwsImdpdGh1YklkIjpudWxsLCJhcHBsZUlkIjpudWxsLCJpc1ZlcmlmaWVkIjpmYWxzZSwicGhvbmUiOiJudWxsIiwiZGV2aWNlVG9rZW4iOiIwIiwiY3JlYXRlZCI6eyJkYXRlIjoiMjAyMy0wOS0wNyAyMTo1NzoxMi4wMDAwMDAiLCJ0aW1lem9uZV90eXBlIjozLCJ0aW1lem9uZSI6IlVUQyJ9LCJwYXlwYWxBY2NvdW50SWQiOm51bGwsImxhdCI6MzcuMzQsImxuZyI6LTEyMS44OSwiYnJvd3Nlck5vdGlmaWNhdGlvbnMiOmZhbHNlLCJhbGxvd0Fub255bW91c0NoYXQiOnRydWUsInppcENvZGUiOm51bGwsImRlbGl2ZXJ5VHlwZSI6WyJCVVlFUl9QSUNLVVAiXSwibWF4RGVsaXZlcnlSYW5nZSI6MCwiZnJlZURlbGl2ZXJ5UmFuZ2UiOjAsIm1pbkZyZWVEZWxpdmVyeU9yZGVyIjowLCJwZXJNaWxlQ29zdCI6MCwiYXZhaWxhYmlsaXR5IjoiMDg6MDAtMTc6MDAiLCJlc3RpbWF0ZWREZWxpdmVyeVRpbWUiOltdLCJhdmFpbGFiaWxpdHlCcmFuY2giOiIiLCJtaWRkbGVOYW1lIjoibnVsbCIsImxhc3ROYW1lIjoiYWxpY2kiLCJmbGV4aWJsZURlbGl2ZXJ5T3B0aW9ucyI6W119.gFeeymjoHoIlICDwdSCkEnJ_fWA00gbMjTCNm84uM_B7xeeHP0jHlGavOLQZKKSnm7NfftpzdgP-03PRU2GQUdy8D1GILSJMfl5lAooIgJiQVWg86EhuwvjQrL6eihRKGIY3pb-rVCjcmKX6k8dXi25Isa-Rb3bLHKr-7viy_9E8pCFpCNJ7KIrZXLeTqlZM9MEh5-4AHi-v398vaKwNrgZ7u9i9-awvnmiBrKJl_GX6H8Xxe_O5v0g0ne2Kaeqt5TFM2DwGMqRoDzpXlEILHWYUVam7iuk12tiWnr9j6adrutJ3J2FLB8YxIKOUb33epfrvJ1IkdyLags3zmq3tew"
+					},
+					{
+						"key": "content-length",
+						"value": "0"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "_gid=GA1.2.1822657426.1697740901; PHPSESSID=dba1u800686rdqn1okj1i4f2e7; _gat_UA-215893125-1=1; _ga=GA1.1.669416652.1696440035; _ga_5Z7XPVQV85=GS1.2.1697740901.12.1.1697742638.0.0.0; _ga_E46MZR4LKC=GS1.1.1697740900.62.1.1697742660.0.0.0"
+					},
+					{
+						"key": "origin",
+						"value": "https://test.urbanicfarm.com"
+					},
+					{
+						"key": "referer",
+						"value": "https://test.urbanicfarm.com/account/address"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"118\", \"Google Chrome\";v=\"118\", \"Not=A?Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sessionid",
+						"value": "null"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "https://test.urbanicfarm.com/api/account/address/getAddress",
+					"protocol": "https",
+					"host": [
+						"test",
+						"urbanicfarm",
+						"com"
+					],
+					"path": [
+						"api",
+						"account",
+						"address",
+						"getAddress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addAddress",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "test.urbanicfarm.com"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en-US;q=0.9,en;q=0.8,tr;q=0.7"
+					},
+					{
+						"key": "authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2OTc3NDI2NDYsImV4cCI6MTcyODg0NjY0Niwicm9sZXMiOlsiUk9MRV9VU0VSIiwiUk9MRV9TRUxMRVIiXSwiZW1haWwiOiJrZXNpZnBsdXNhbGljaUBtYWlsc2FjLmNvbSIsImlkIjoxNjQ2LCJmaXJzdE5hbWUiOiJrZXNpZiBwbHVzIiwicGljdHVyZSI6bnVsbCwiZ29vZ2xlSWQiOm51bGwsImZhY2Vib29rSWQiOm51bGwsImxpbmtlZGluSWQiOm51bGwsImdpdGh1YklkIjpudWxsLCJhcHBsZUlkIjpudWxsLCJpc1ZlcmlmaWVkIjpmYWxzZSwicGhvbmUiOiJudWxsIiwiZGV2aWNlVG9rZW4iOiIwIiwiY3JlYXRlZCI6eyJkYXRlIjoiMjAyMy0wOS0wNyAyMTo1NzoxMi4wMDAwMDAiLCJ0aW1lem9uZV90eXBlIjozLCJ0aW1lem9uZSI6IlVUQyJ9LCJwYXlwYWxBY2NvdW50SWQiOm51bGwsImxhdCI6MzcuMzQsImxuZyI6LTEyMS44OSwiYnJvd3Nlck5vdGlmaWNhdGlvbnMiOmZhbHNlLCJhbGxvd0Fub255bW91c0NoYXQiOnRydWUsInppcENvZGUiOm51bGwsImRlbGl2ZXJ5VHlwZSI6WyJCVVlFUl9QSUNLVVAiXSwibWF4RGVsaXZlcnlSYW5nZSI6MCwiZnJlZURlbGl2ZXJ5UmFuZ2UiOjAsIm1pbkZyZWVEZWxpdmVyeU9yZGVyIjowLCJwZXJNaWxlQ29zdCI6MCwiYXZhaWxhYmlsaXR5IjoiMDg6MDAtMTc6MDAiLCJlc3RpbWF0ZWREZWxpdmVyeVRpbWUiOltdLCJhdmFpbGFiaWxpdHlCcmFuY2giOiIiLCJtaWRkbGVOYW1lIjoibnVsbCIsImxhc3ROYW1lIjoiYWxpY2kiLCJmbGV4aWJsZURlbGl2ZXJ5T3B0aW9ucyI6W119.gFeeymjoHoIlICDwdSCkEnJ_fWA00gbMjTCNm84uM_B7xeeHP0jHlGavOLQZKKSnm7NfftpzdgP-03PRU2GQUdy8D1GILSJMfl5lAooIgJiQVWg86EhuwvjQrL6eihRKGIY3pb-rVCjcmKX6k8dXi25Isa-Rb3bLHKr-7viy_9E8pCFpCNJ7KIrZXLeTqlZM9MEh5-4AHi-v398vaKwNrgZ7u9i9-awvnmiBrKJl_GX6H8Xxe_O5v0g0ne2Kaeqt5TFM2DwGMqRoDzpXlEILHWYUVam7iuk12tiWnr9j6adrutJ3J2FLB8YxIKOUb33epfrvJ1IkdyLags3zmq3tew"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "_gid=GA1.2.1822657426.1697740901; PHPSESSID=dba1u800686rdqn1okj1i4f2e7; _ga=GA1.1.669416652.1696440035; _ga_5Z7XPVQV85=GS1.2.1697740901.12.1.1697742638.0.0.0; _ga_E46MZR4LKC=GS1.1.1697740900.62.1.1697742660.0.0.0"
+					},
+					{
+						"key": "origin",
+						"value": "https://test.urbanicfarm.com"
+					},
+					{
+						"key": "referer",
+						"value": "https://test.urbanicfarm.com/account/address"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"118\", \"Google Chrome\";v=\"118\", \"Not=A?Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sessionid",
+						"value": "null"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"isDefault\":true,\"isSellerAddress\":true,\"title\":\"Home\",\"address\":\"San Jose, CA 95193, USA\",\"city\":\"San Jose\",\"state\":\"Santa Clara County\",\"postal\":\"95193\"}"
+				},
+				"url": {
+					"raw": "https://test.urbanicfarm.com/api/account/address/addAddress",
+					"protocol": "https",
+					"host": [
+						"test",
+						"urbanicfarm",
+						"com"
+					],
+					"path": [
+						"api",
+						"account",
+						"address",
+						"addAddress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "test.urbanicfarm.com"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en-US;q=0.9,en;q=0.8,tr;q=0.7"
+					},
+					{
+						"key": "authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2OTc3NDI2NDYsImV4cCI6MTcyODg0NjY0Niwicm9sZXMiOlsiUk9MRV9VU0VSIiwiUk9MRV9TRUxMRVIiXSwiZW1haWwiOiJrZXNpZnBsdXNhbGljaUBtYWlsc2FjLmNvbSIsImlkIjoxNjQ2LCJmaXJzdE5hbWUiOiJrZXNpZiBwbHVzIiwicGljdHVyZSI6bnVsbCwiZ29vZ2xlSWQiOm51bGwsImZhY2Vib29rSWQiOm51bGwsImxpbmtlZGluSWQiOm51bGwsImdpdGh1YklkIjpudWxsLCJhcHBsZUlkIjpudWxsLCJpc1ZlcmlmaWVkIjpmYWxzZSwicGhvbmUiOiJudWxsIiwiZGV2aWNlVG9rZW4iOiIwIiwiY3JlYXRlZCI6eyJkYXRlIjoiMjAyMy0wOS0wNyAyMTo1NzoxMi4wMDAwMDAiLCJ0aW1lem9uZV90eXBlIjozLCJ0aW1lem9uZSI6IlVUQyJ9LCJwYXlwYWxBY2NvdW50SWQiOm51bGwsImxhdCI6MzcuMzQsImxuZyI6LTEyMS44OSwiYnJvd3Nlck5vdGlmaWNhdGlvbnMiOmZhbHNlLCJhbGxvd0Fub255bW91c0NoYXQiOnRydWUsInppcENvZGUiOm51bGwsImRlbGl2ZXJ5VHlwZSI6WyJCVVlFUl9QSUNLVVAiXSwibWF4RGVsaXZlcnlSYW5nZSI6MCwiZnJlZURlbGl2ZXJ5UmFuZ2UiOjAsIm1pbkZyZWVEZWxpdmVyeU9yZGVyIjowLCJwZXJNaWxlQ29zdCI6MCwiYXZhaWxhYmlsaXR5IjoiMDg6MDAtMTc6MDAiLCJlc3RpbWF0ZWREZWxpdmVyeVRpbWUiOltdLCJhdmFpbGFiaWxpdHlCcmFuY2giOiIiLCJtaWRkbGVOYW1lIjoibnVsbCIsImxhc3ROYW1lIjoiYWxpY2kiLCJmbGV4aWJsZURlbGl2ZXJ5T3B0aW9ucyI6W119.gFeeymjoHoIlICDwdSCkEnJ_fWA00gbMjTCNm84uM_B7xeeHP0jHlGavOLQZKKSnm7NfftpzdgP-03PRU2GQUdy8D1GILSJMfl5lAooIgJiQVWg86EhuwvjQrL6eihRKGIY3pb-rVCjcmKX6k8dXi25Isa-Rb3bLHKr-7viy_9E8pCFpCNJ7KIrZXLeTqlZM9MEh5-4AHi-v398vaKwNrgZ7u9i9-awvnmiBrKJl_GX6H8Xxe_O5v0g0ne2Kaeqt5TFM2DwGMqRoDzpXlEILHWYUVam7iuk12tiWnr9j6adrutJ3J2FLB8YxIKOUb33epfrvJ1IkdyLags3zmq3tew"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "cookie",
+						"value": "_gid=GA1.2.1822657426.1697740901; PHPSESSID=dba1u800686rdqn1okj1i4f2e7; _ga=GA1.1.669416652.1696440035; _ga_5Z7XPVQV85=GS1.2.1697740901.12.1.1697742638.0.0.0; _ga_E46MZR4LKC=GS1.1.1697740900.62.1.1697742660.0.0.0"
+					},
+					{
+						"key": "origin",
+						"value": "https://test.urbanicfarm.com"
+					},
+					{
+						"key": "referer",
+						"value": "https://test.urbanicfarm.com/account/address"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"118\", \"Google Chrome\";v=\"118\", \"Not=A?Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sessionid",
+						"value": "null"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"isDefault\":false,\"isSellerAddress\":false,\"title\":\"Ev adresi\",\"address\":\"San Jose, CA 95109, USA\",\"city\":\"San Jose\",\"state\":\"Santa Clara County\",\"postal\":\"95109\",\"addressId\":1117}"
+				},
+				"url": {
+					"raw": "https://test.urbanicfarm.com/api/account/address/update",
+					"protocol": "https",
+					"host": [
+						"test",
+						"urbanicfarm",
+						"com"
+					],
+					"path": [
+						"api",
+						"account",
+						"address",
+						"update"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
