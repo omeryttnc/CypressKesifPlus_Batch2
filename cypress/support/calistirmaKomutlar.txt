@@ -8,3 +8,4 @@
 --tag -> smoke regression gibi testlerimizi gruplandirmada kullanacagiz
 --record -> cloud hesabimizin id si 
 --reporter -> bize hangi tur raporlarlama yapmamizi sagliyor
+--env -> envrionment degeri gondermemize sagliyor

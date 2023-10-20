@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:alert": "npx cypress run --headed --browser chrome --spec 'cypress\\e2e\\week5_day_1\\alert.cy.js'",
+    "cy:alert": "npx cypress run --headed --browser chrome --spec 'cypress\\e2e\\week5_day_1\\alert.cy.js' --env viewportHeight=900,viewportWidth= 1600 ",
     "cy:alertheadless": "npx cypress run --spec 'cypress\\e2e\\week5_day_1\\alert.cy.js'",
     "allure:run": "npx cypress run --spec 'cypress\\e2e\\week5_day_2\\iframe.cy.js' --headed --env allure=true",
     "allure:generate": "allure generate allure-results --clean -o allure-report ",
@@ -21,6 +21,7 @@
     "cypress-plugin-tab": "^1.0.5",
     "cypress-xpath": "^2.0.1",
     "faker": "^5.5.3",
+    "mysql": "^2.18.1",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
